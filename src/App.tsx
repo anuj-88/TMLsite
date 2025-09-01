@@ -7,10 +7,15 @@ import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Preloader from './components/ui/Preloader';
+import { initGalaxyBackground } from './components/galaxy';
 
 
 function App() {
   const [loading, setLoading] = useState(true);
+
+   useEffect(() => {
+    initGalaxyBackground();
+  }, []);
 
   useEffect(() => {
     // Simulate loading time

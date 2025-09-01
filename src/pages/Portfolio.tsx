@@ -75,7 +75,7 @@ const Portfolio: React.FC = () => {
       company: "Saturn Mediaworks",
       testimonial: "The Machine Language team exceeded our expectations. They delivered our software project on time and within budget, and their ongoing support has been exceptional.",
       rating: 5,
-      image: "/images/Garima.png"
+      image: "./images/Garima.png"
     },
     {
       name: "Manas Shukla",
@@ -83,7 +83,7 @@ const Portfolio: React.FC = () => {
       company: "Globex Corporation",
       testimonial: "Their expertise in cloud infrastructure helped us reduce costs by 30% while improving performance. A true partner who understands our business needs.",
       rating: 5,
-      image: "/images/manas.jpg"
+      image: "./images/manas.jpg"
     },
     {
       name: "Raghav Dubey",
@@ -91,7 +91,7 @@ const Portfolio: React.FC = () => {
       company: "Innovate Digital",
       testimonial: "The web application they built for us has transformed how we engage with customers. User-friendly, scalable, and exactly what we needed.",
       rating: 4,
-      image: "/images/raghav.jpeg"
+      image: "./images/raghav.jpeg"
     },
     {
       name: "Kunj Sharma",
@@ -99,7 +99,7 @@ const Portfolio: React.FC = () => {
       company: "HealthTech Solutions",
       testimonial: "Working with The Machine Language on our mobile health app was a game-changer. Their technical expertise and understanding of the healthcare industry made all the difference.",
       rating: 5,
-      image: "/images/kunj.jpeg"
+      image: "./images/kunj.jpeg"
     }
   ];
 
