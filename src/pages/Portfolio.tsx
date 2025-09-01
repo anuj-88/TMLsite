@@ -71,7 +71,7 @@ const Portfolio: React.FC = () => {
   const testimonials = [
     {
       name: "Garima Dwivedi",
-      role: "CTO",
+      role: "CEO",
       company: "Saturn Mediaworks",
       testimonial: "The Machine Language team exceeded our expectations. They delivered our software project on time and within budget, and their ongoing support has been exceptional.",
       rating: 5,
