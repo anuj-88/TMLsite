@@ -8,6 +8,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Preloader from './components/ui/Preloader';
 
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -38,3 +39,52 @@ function App() {
 }
 
 export default App;
+// import React, { useState, useEffect } from 'react';
+// import { Routes, Route } from 'react-router-dom';
+// import Layout from './components/layout/Layout';
+// import Home from './pages/Home';
+// import About from './pages/About';
+// import Services from './pages/Services';
+// import Portfolio from './pages/Portfolio';
+// import Contact from './pages/Contact';
+// import Preloader from './components/ui/Preloader';
+
+// // ✅ Import your Three.js background component
+// import ThreeBackground from './components/ui/ThreeBackground';
+
+// function App() {
+//   const [loading, setLoading] = useState(true);
+
+//   useEffect(() => {
+//     const timer = setTimeout(() => {
+//       setLoading(false);
+//     }, 2000);
+//     return () => clearTimeout(timer);
+//   }, []);
+
+//   if (loading) {
+//     return <Preloader />;
+//   }
+
+//   return (
+//     <>
+//       {/* ✅ Add background Three.js animation */}
+//       <ThreeBackground />
+
+//       {/* Main App Routes (foreground content) */}
+//       <div style={{ position: 'relative', zIndex: 1 }}>
+//         <Routes>
+//           <Route path="/" element={<Layout />}>
+//             <Route index element={<Home />} />
+//             <Route path="/about" element={<About />} />
+//             <Route path="/services" element={<Services />} />
+//             <Route path="/portfolio" element={<Portfolio />} />
+//             <Route path="/contact" element={<Contact />} />
+//           </Route>
+//         </Routes>
+//       </div>
+//     </>
+//   );
+// }
+
+// export default App;
