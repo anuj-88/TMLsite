@@ -15,7 +15,7 @@ const Logo: React.FC<LogoProps> = ({ size = 40, darkMode = false, imageUrl }) =>
       style={{ width: size, height: size }}
     >
       <img
-        src= {'./images/logo.png'}
+        src= {'/images/logo.png'}
         alt="TML Logo"
         className="w-full h-full object-contain"
       />
