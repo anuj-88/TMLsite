@@ -52,15 +52,15 @@ const Home: React.FC = () => {
               
               <AnimatedElement delay={400}>
                 <div className="mt-12 flex items-center">
-                  <div className="flex -space-x-2">
+                  {/* <div className="flex -space-x-2">
                     {[1, 2, 3, 4].map((i) => (
                       <div key={i} className="w-10 h-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 font-medium">
                         {i}
                       </div>
                     ))}
-                  </div>
+                  </div> */}
                   <div className="ml-4">
-                    <p className="text-sm text-slate-600">Trusted by businesses worldwide</p>
+                    <p className="text-2xl text-slate-600">Trusted by businesses worldwide</p>
                   </div>
                 </div>
               </AnimatedElement>
@@ -81,13 +81,13 @@ const Home: React.FC = () => {
                     </div>
                     <span className="font-semibold text-slate-900">Sustainable and Scalable</span>
                   </div>
-                  <div className="flex items-end justify-between">
+                  {/* <div className="flex items-end justify-between"> */}
                     {/* <span className="text-3xl font-bold text-slate-900">98.5%</span>
                     <span className="text-green-600 flex items-center">
                       +12.7% 
                       <ChevronRight size={16} />
                     </span> */}
-                  </div>
+                  {/* </div> */}
                 </div>
               </AnimatedElement>
             </div>
