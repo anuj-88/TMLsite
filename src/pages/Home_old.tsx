@@ -11,7 +11,6 @@ import {
 import AnimatedElement from '../components/ui/AnimatedElement';
 import ServiceCard from '../components/ui/ServiceCard';
 import TestimonialCard from '../components/ui/TestimonialCard';
-import Keyboard3D from '../components/ui/Keyboard3D';
 
 const Home: React.FC = () => {
   return (
@@ -66,7 +65,6 @@ const Home: React.FC = () => {
               </AnimatedElement>
             </div>
             
-            
             <div className="relative">
               <AnimatedElement delay={300}>
                 <img 
@@ -98,31 +96,6 @@ const Home: React.FC = () => {
       {/* Services Section */}
       <section className="section bg-white">
         <div className="container">
-          
-          <div className="text-center mb-12">
-            <AnimatedElement>
-              {/* <span className="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium mb-4">
-                Interactive Experience
-              </span> */}
-            </AnimatedElement>
-            <AnimatedElement delay={100}>
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                Where <span className="text-blue-600">Power</span> Meets <span className="text-blue-600">Momentum</span>
-              </h2>
-            </AnimatedElement>
-            <AnimatedElement delay={200}>
-              <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                
-              </p>
-            </AnimatedElement>
-          </div>
-          
-          <div className="flex justify-center">
-            <AnimatedElement delay={300}>
-              <Keyboard3D className="transform hover:scale-105 transition-transform duration-300" />
-            </AnimatedElement>
-          </div>
-
           <AnimatedElement>
             <h2 className="section-title text-center">Our Services</h2>
           </AnimatedElement>

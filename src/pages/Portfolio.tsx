@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import AnimatedElement from '../components/ui/AnimatedElement';
 import ProjectCard from '../components/ui/ProjectCard';
 import TestimonialCard from '../components/ui/TestimonialCard';
+import SocialMediaShowcase from "../components/SocialMediaShowcase";
+
 
 const Portfolio: React.FC = () => {
   // Portfolio filter categories
@@ -292,10 +294,10 @@ const Portfolio: React.FC = () => {
       <section className="section bg-slate-50">
         <div className="container">
           <AnimatedElement>
-            <h2 className="section-title text-center">Companies We've Worked With</h2>
+            <h2 className="section-title text-center">Showcasing Our Social Media Posts</h2>
           </AnimatedElement>
           
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+          {/* <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
             {Array.from({ length: 6 }).map((_, index) => (
               <AnimatedElement key={index} delay={200 + index * 100}>
                 <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-100 flex items-center justify-center h-24">
@@ -303,7 +305,9 @@ const Portfolio: React.FC = () => {
                 </div>
               </AnimatedElement>
             ))}
-          </div>
+          </div> */}
+          <SocialMediaShowcase />
+
         </div>
       </section>
 
